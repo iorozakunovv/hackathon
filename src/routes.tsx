@@ -3,6 +3,7 @@ import { Home } from './pages/Home'
 import { RootLayout } from './layout/RootLayout'
 import { SuuBar } from './pages/SuuBar'
 import { Page404 } from './pages/Page404'
+import { Login } from './pages/Login'
 
 export default function Router() {
   return useRoutes([
@@ -12,6 +13,7 @@ export default function Router() {
       children: [
         { path: 'home', element: <Home /> },
         { path: 'suubar', element: <SuuBar /> },
+        { path: 'login', element: <Login /> },
         { path: '404', element: <Page404 /> },
         { path: '*', element: <Navigate to='/404' /> },
       ],
