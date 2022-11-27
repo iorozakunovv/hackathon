@@ -1,0 +1,52 @@
+.Header {
+  display: flex;
+  margin: 15px;
+}
+
+
+.Header img {
+  width: 400px;
+  height: 300px;
+  max-width: 100%;
+
+
+  margin: 0 auto;
+  display: flex;
+
+}
+.Header section {
+  /* position: absolute;
+  max-width: 500px;
+  padding: 0 3rem 0;
+  bottom: 9rem;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+  left: 5rem;
+  font-weight: bold; */
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+  padding-top: 20px;
+  margin-left: 20rem;
+}
+.Header h1 {
+  font-size: 2rem;
+}
+.Header p{
+  width: 300px;
+  font-size: 20px;
+}
+@media (max-width: 1028px){
+  .Header{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width:600px){
+  .Header section{
+    margin-left: 0;
+    margin: 0 auto;
+  }
+}
