@@ -1,0 +1,7 @@
+export { Docs } from './Docs.icon'
+export { Help } from './Help.icon'
+export { History } from './History.icon'
+export { Lock } from './Lock.icon'
+export { Mainpage } from './Mainpage.icon'
+export { Settings } from './Settings.icon'
+export { Suubar } from './Suubar.icon'
