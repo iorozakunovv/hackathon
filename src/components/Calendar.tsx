@@ -63,10 +63,10 @@ export const Calendar = () => {
       />
       <Stack flexDirection='row' gap={2} justifyContent='flex-end' mt={2}>
         <Button variant='contained' onClick={onCancel}>
-          cancel
+          Cancel
         </Button>
         <Button variant='contained' onClick={onSave}>
-          save
+          Save
         </Button>
       </Stack>
     </Box>

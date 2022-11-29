@@ -22,7 +22,7 @@ const navConfig = [
     icon: <Lock />,
   },
   {
-    title: 'Docs',
+    title: 'Регистрация/Вход',
     path: '/login',
     icon: <Docs />,
   },
